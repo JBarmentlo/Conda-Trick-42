@@ -54,7 +54,7 @@ rsync -ah --info=progress2 ~/goinfre/miniconda ~/sgoinfre
 and now you can work as you like. If you go to a new pc copy your files from sgoinfre to goinfre again with;
 
 ```bash
-rsync -ah --info=progress2 ~/sgoinfre/miniconda ~/goinfre/miniconda
+rsync -ah --info=progress2 ~/sgoinfre/miniconda ~/goinfre
 ```
 this should take about 3 minutes
 
