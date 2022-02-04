@@ -45,7 +45,8 @@ pip   install    pillow
 If you get a `conda command not found either the install failed, or you forgot to restart your terminal`. 
 <br></br>
 
-Now we copy the install files to sgoinfre so they dont get deleted. The progress % is wacky but it should go to 2-4GB and take about 10 minutes.
+Now we copy the install files to sgoinfre so they dont get deleted. The progress % is wacky but it should go to 2-4GB and take about 10 minutes.    
+**If you install new packages later and dont want them to dissapear when u change computers you will have to run this again,** it will only copy modified files and wont take long the second time.
 ```bash
 rsync -ah --info=progress2 ~/goinfre/miniconda ~/sgoinfre
 ```
