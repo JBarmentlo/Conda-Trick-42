@@ -36,6 +36,7 @@ Then install the python libraries you need:
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 conda install -c conda-forge jupyterlab
 conda install -c conda-forge numpy
+pip   install    pillow
 ```
 If you get a `conda command not found either the install failed, or you forgot to restart your terminal`. 
 <br></br>
@@ -51,4 +52,6 @@ and now you can work as you like. If you go to a new pc copy your files from sgo
 rsync -ah --info=progress2 ~/sgoinfre/miniconda ~/goinfre/miniconda
 ```
 
+## Sanity Check ?
+If your install is good and running `which python` should output `blabla/goinfre/blabla`
 
