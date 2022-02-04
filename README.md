@@ -29,7 +29,11 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh -p $(pwd)/miniconda
 ```
 <br></br>
-
+Now we need to add conda to the path, so we add the following line to .zshrc (or.bashrc) above the `# >>> conda initialize >>>` line:
+**change YOUR_USERNAME with your real username!!** 
+```bash
+export PATH=$PATH:/mnt/nfs/homes/YOUR_USERNAME/goinfre/miniconda/bin
+```
 Then install the python libraries you need:    
 **JUST INSTALL WHAT YOU NEED, THIS IS A DATASCIENCE AI INSTALL FOR EXAMPLE**
 ```bash
