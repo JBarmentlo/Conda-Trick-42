@@ -43,7 +43,7 @@ If you get a `conda command not found either the install failed, or you forgot t
 
 Now we copy the install files to sgoinfre so they dont get deleted. The progress % is wacky but it should go to 2-4GB and take about 10 minutes.
 ```bash
-rsync -ah --info=progress2 ~/goinfre/miniconda ~/sgoinfre/miniconda
+rsync -ah --info=progress2 ~/goinfre/miniconda ~/sgoinfre
 ```
 
 and now you can work as you like. If you go to a new pc copy your files from sgoinfre to goinfre again with;
@@ -51,6 +51,7 @@ and now you can work as you like. If you go to a new pc copy your files from sgo
 ```bash
 rsync -ah --info=progress2 ~/sgoinfre/miniconda ~/goinfre/miniconda
 ```
+this should take about 3 minutes
 
 ## Sanity Check ?
 If your install is good and running `which python` should output `blabla/goinfre/blabla`
